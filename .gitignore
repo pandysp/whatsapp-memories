@@ -1,0 +1,73 @@
+# Python
+__pycache__
+.pytest_cache
+.venv
+.ruff_cache
+.mypy_cache/
+.dmypy.json
+
+# System
+.vscode/
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.swp
+*.swo
+
+# Environment variables
+.env
+.env.local
+.env.debug
+.env*
+
+# Project-specific
+cache
+backend/data_out/
+.aider*
+pandoc-*
+archive/
+
+# Privacy: Personal few-shot examples with intimate conversations
+backend/utils/ORIGINAL_FEW_SHOT_EXAMPLES.md
+
+# Explicitly ignore all chat exports, whitelist demo
+backend/data_in/*.txt
+!backend/data_in/demo_chat.txt
+
+# Database
+*.db
+*.sqlite3
+*.db-journal
+
+# Talk preparation (keep locally, don't publish)
+talks/
+
+# Node.js dependencies
+node_modules/
+
+# Frontend - Next.js build output
+frontend/.next/
+frontend/out/
+frontend/build/
+
+# Frontend - debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Frontend - Vercel
+frontend/.vercel/
+frontend/.turbo/
+
+# Frontend - TypeScript
+frontend/*.tsbuildinfo
+frontend/next-env.d.ts
+
+# Logs
+*.log
+
+# DB
+backend_cache.db

@@ -1,0 +1,36 @@
+[project]
+name = "whatsapp-memories"
+version = "0.1.0"
+description = ""
+authors = [
+    { name = "Andreas Spannagel", email = "spannagel.andreas@gmail.com" },
+]
+readme = "README.md"
+requires-python = ">=3.11,<4.0"
+dependencies = [
+    "coloredlogs>=15.0.1,<16.0.0",
+    "openai>=1.64.0,<2.0.0",
+    "httpx[http2]>=0.27.2,<0.28.0",
+    "beautifulsoup4>=4.12.2,<4.13.0",
+    "asyncclick>=8.1.7.2,<8.2.0.0",
+    "polars>=0.20.21,<0.21.0",
+    "aiofiles>=23.2.1,<24.0.0",
+    "numpy>=2.1.1,<3.0.0",
+    "pydantic>=2.10.6,<3.0.0",
+    "pypandoc>=1.13,<2.0",
+    "python-dotenv==1.0.0",
+    "xlsx2csv>=0.8.4,<0.9.0",
+    "xlsxwriter>=3.2.2,<3.3.0",
+    "google-genai>=1.2.0",
+    "aiosqlite>=0.21.0",
+    "fastapi[standard]>=0.115.12",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=8.3.3,<9.0.0",
+    "pytest-asyncio>=0.23.6,<0.24.0",
+    "pytest-mock>=3.14.0,<3.15.0",
+    "asynctest>=0.13.0,<0.14.0",
+    "ruff>=0.3.5,<0.4.0",
+]

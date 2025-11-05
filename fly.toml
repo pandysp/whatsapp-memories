@@ -1,0 +1,25 @@
+# fly.toml app configuration file generated for whatsapp-memories-api on 2025-11-05T16:07:04+01:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = 'whatsapp-memories-api'
+primary_region = 'fra'
+
+[build]
+
+[[mounts]]
+  source = 'whatsapp_memories_data'
+  destination = '/data'
+
+[http_service]
+  internal_port = 8000
+  force_https = true
+  auto_stop_machines = 'stop'
+  auto_start_machines = true
+  min_machines_running = 0
+
+[[vm]]
+  cpu_kind = 'shared'
+  cpus = 1
+  memory_mb = 256

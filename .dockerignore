@@ -1,0 +1,38 @@
+# Python
+__pycache__
+*.pyc
+.pytest_cache
+.venv
+.ruff_cache
+.mypy_cache
+
+# Local database
+backend_cache.db
+
+# Environment
+.env
+.env.local
+
+# Frontend
+frontend/
+node_modules/
+
+# Git
+.git/
+.gitignore
+
+# Documentation
+docs/
+*.md
+!README.md
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Data
+backend/data_in/*.txt
+!backend/data_in/demo_chat.txt
