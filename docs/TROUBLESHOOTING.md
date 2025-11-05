@@ -565,7 +565,7 @@ fly ssh sftp shell
 **Missing Dependencies:**
 ```bash
 cd frontend
-npm install
+pnpm install
 # Commit package-lock.json
 git add package-lock.json
 git commit -m "Update dependencies"
@@ -784,7 +784,7 @@ uv sync
 
 # Frontend
 cd frontend
-npm update
+pnpm update
 ```
 
 ---
