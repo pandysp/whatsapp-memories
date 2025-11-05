@@ -111,17 +111,17 @@ make clear-cache           # Delete backend_cache.db (or SQLITE_DB_PATH if set)
 cd frontend
 
 # Install dependencies
-npm install
+pnpm install
 
 # Development
-npm run dev                # Start dev server (usually http://localhost:3000)
+pnpm run dev                # Start dev server (usually http://localhost:3000)
 
 # Production
-npm run build              # Build for production
-npm start                  # Start production server
+pnpm run build              # Build for production
+pnpm start                  # Start production server
 
 # Linting
-npm run lint               # Next.js ESLint
+pnpm run lint               # Next.js ESLint
 ```
 
 ## Environment Variables

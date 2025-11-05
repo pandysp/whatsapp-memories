@@ -182,7 +182,7 @@ If processing your own messages:
 uv sync --upgrade
 
 # Frontend
-cd frontend && npm update
+cd frontend && pnpm update
 ```
 
 ### 2. Review Permissions

@@ -56,7 +56,7 @@ Extracted 423 exchanges from 1,800 daily chunks
 make run-backend
 
 # In another terminal, start frontend
-cd frontend && npm run dev
+cd frontend && pnpm run dev
 
 # Visit http://localhost:3000
 ```

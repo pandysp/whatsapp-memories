@@ -210,7 +210,7 @@ async def main(log_level: str, file_in: str, file_out: str) -> None:
 
     # Count output messages
     output_message_count = sum(
-        len(exchange.messages)
+        len(exchange)
         for result_tuple in results
         for result, _ in [result_tuple]
         if result and result.cute_exchanges

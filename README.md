@@ -65,8 +65,8 @@ make run-backend
 
 ```bash
 cd frontend
-npm install
-npm run dev
+pnpm install
+pnpm run dev
 ```
 
 Visit **http://localhost:3000** to see the WhatsApp clone UI with demo data.
@@ -125,7 +125,7 @@ make lint      # Lint and fix
 
 # Frontend
 cd frontend
-npm run lint   # ESLint
+pnpm run lint   # ESLint
 ```
 
 ## Deployment

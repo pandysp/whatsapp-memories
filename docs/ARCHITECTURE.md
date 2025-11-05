@@ -257,7 +257,7 @@ make start ARGS="--file_in=backend/data_in/my_chat.txt"
 make run-backend
 
 # 3. Start frontend
-cd frontend && npm run dev
+cd frontend && pnpm run dev
 
 # 4. Curate in UI
 # Browse, delete unwanted, merge related exchanges

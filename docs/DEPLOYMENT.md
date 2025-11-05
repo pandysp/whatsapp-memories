@@ -42,7 +42,7 @@ curl -L https://fly.io/install.sh | sh
 fly version
 
 # Optional: Install Vercel CLI (can use web UI instead)
-npm install -g vercel
+pnpm install -g vercel
 ```
 
 ### Environment Variables
@@ -156,7 +156,7 @@ git push origin main
 4. **Configure project settings:**
    - Framework Preset: **Next.js** (auto-detected)
    - Root Directory: **`frontend`** ← Important!
-   - Build Command: `npm run build` (default)
+   - Build Command: `pnpm run build` (default)
    - Output Directory: `.next` (default)
 
 5. **Set environment variable:**
